@@ -59,8 +59,8 @@ def gemini_answer(question, context):
         return f"Terjadi error: {e}"
 
 
-st.set_page_config(page_title="Chatbot Gemini Berbasis File", page_icon="🤖")
-st.title("Chatbot Gemini Berbasis File")
+st.set_page_config(page_title="Chatbot V2 Berbasis File", page_icon="🤖")
+st.title("Chatbot V2 Berbasis File")
 st.write("Upload file (.txt, .pdf, .docx, .xlsx) sebagai konteks. Chatbot hanya akan menjawab berdasarkan isi file yang di-upload.")
 
 
